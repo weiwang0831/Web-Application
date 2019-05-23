@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Start Page</title>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="start.css">
+
+        <body>
+
+            <h1 style="text-align: center">Pittsburgh Restaurants Yelper </h1>
+            <!--<h4 style="text-align:right">Don't want to register? You can try to view as visitor!</h4>
+
+		img style="width: 25%; float:right margin: 1px 0 10px 20px;  " src="https://foodrevolution.org/wp-content/uploads/2018/03/blog-featured_healthy_foods-20180306.jpg"
+		 alt="" /-->
+
+            <div class="container">
+                <form ACTION=user_process.php METHOD=GET>
+                    <label>EXPLORE as VISITOR: </label>
+                    <br />
+                    <button type="submit" value="Explore" style="width: 150px; height: 40px">Explore Now!</button>
+                </form>
+
+                <form ACTION=user_process.php METHOD=POST>
+                    <label for="name">LOGIN</label>
+                    <br />
+                    <input name="email" type="text" value="Enter email" style="width:250px;height:50px" />
+                    <br />
+                    <input name="password" type="text" value="Enter password" style="width:250px;height:50px" />
+                    <button type="submit" value="login">Login</button>
+                </form>
+
+                <form ACTION=new_user_process.php METHOD=POST>
+                    <label for="name">SIGN IN</label>
+                    <br />
+                    <input name="email" type="text" value="Enter email" style="width:250px;height:40px" />
+                    <br />
+                    <input name="password" type="text" value="Enter password" style="width:250px;height:40px" />
+                    <br />
+                    <input name="firstname" type="text" value="Enter first name" style="width:250px;height:40px" />
+                    <br />
+                    <input name="lastname" type="text" value="Enter last name" style="width:250px;height:40px" />
+                    <button type="submit" value="sign in">Sign In</button>
+                </form>
+
+            </div>
+
+        </body>
+
+</html>

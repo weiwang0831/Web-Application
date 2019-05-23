@@ -1,0 +1,21 @@
+.container input {
+    width: 50%;
+    clear: both;
+  }
+
+  label{
+      font-weight: bold;
+      font-family: "Arial";
+  }
+
+.like_summary table{
+    float: left;
+}
+.recommend table{
+    float: center;
+}
+.fav table{
+    float: right;
+}
+
+
